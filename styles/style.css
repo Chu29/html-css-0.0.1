@@ -37,7 +37,8 @@ body {
 }
 
 .hero-left h2,
-.content h1 {
+.content h1,
+.customize-to-your-needs h1 {
   font-weight: 700;
   font-size: 45px;
   letter-spacing: -2%;
@@ -51,7 +52,8 @@ body {
 }
 
 .hero-left p,
-.content p {
+.content p,
+#customize-to-your-needs-1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -60,7 +62,8 @@ body {
   text-align: center;
 }
 
-.content p {
+.content p,
+#customize-to-your-needs-2 h1 {
   color: #212529;
 }
 
@@ -84,6 +87,25 @@ button.btn-get-started {
   display: flex;
   flex-direction: column;
   gap: 100px;
+}
+
+#customize-to-your-needs-1 {
+  background-color: #043873;
+}
+
+#customize-to-your-needs-1 .heading,
+#customize-to-your-needs-2 .heading {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 .content,
