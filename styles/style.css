@@ -38,7 +38,8 @@ body {
 
 .hero-left h2,
 .content h1,
-.customize-to-your-needs h1 {
+.customize-to-your-needs h1,
+#pricing .heading h1 {
   font-weight: 700;
   font-size: 45px;
   letter-spacing: -2%;
@@ -53,13 +54,19 @@ body {
 
 .hero-left p,
 .content p,
-#customize-to-your-needs-1 {
+#customize-to-your-needs-1 p,
+#customize-to-your-needs-2 p,
+#pricing .heading p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: -2%;
   color: #fff;
   text-align: center;
+}
+
+#customize-to-your-needs-2 p {
+  color: #212529;
 }
 
 .content p,
@@ -114,4 +121,76 @@ button.btn-get-started {
   flex-direction: column;
   gap: 60px;
   align-items: center;
+}
+
+#pricing {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+#pricing .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#pricing .heading h1,
+#pricing .heading p {
+  text-align: center;
+  color: #212529;
+}
+
+.card-1,
+.card-3 {
+  display: none;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #043873;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-2 .text-block {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-2 p,
+.card-2 h4 {
+  color: #fff;
+}
+
+.card-2 h4 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.card-2 .text-block p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.bullet-point {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.point {
+  display: flex;
+  gap: 20px;
+}
+
+.slider {
+  width: 60px;
+  height: 12px;
+  margin: 0 auto;
 }
