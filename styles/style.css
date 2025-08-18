@@ -275,6 +275,24 @@ body {
   gap: 24px;
 }
 
+#apps .heading h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+#apps .heading p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fff;
+}
+
 #your-data .heading .text-block h1 {
   font-weight: 700;
   font-size: 36px;
@@ -341,24 +359,6 @@ body {
   flex-direction: column;
   gap: 60px;
   align-items: center;
-}
-
-#apps .heading h1 {
-  color: #fff;
-  text-align: center;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 100%;
-  letter-spacing: -2%;
-}
-
-#apps .heading p {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 30px;
-  letter-spacing: -2%;
-  text-align: center;
-  color: #fff;
 }
 
 button.btn-free-trial,
