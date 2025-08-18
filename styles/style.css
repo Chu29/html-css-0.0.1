@@ -741,8 +741,8 @@ p.highlight {
     align-items: flex-start;
   }
 
-.infr,
-.try {
-  align-items: flex-start;
-}
+  .infr,
+  .try {
+    align-items: flex-start;
+  }
 }
