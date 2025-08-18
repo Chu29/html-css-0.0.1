@@ -361,6 +361,79 @@ body {
   align-items: center;
 }
 
+#testimonials {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+#testimonials h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #212529;
+}
+
+#testimonials > .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 32px;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 32px;
+  box-shadow: 15px 10px 50px 0px #0000001A;
+
+}
+
+.name-box > img {
+  max-width: 65px;
+  max-height: 65px;
+  border-radius: 50%;
+}
+
+.name-box > .name {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.name p:first-of-type {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -2%;
+
+}
+
+.testimonial-card > .comment,
+.testimonial-card > .name-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.testimonial-card > .comment p,
+.testimonial-card > .name-box p {
+  text-align: left;
+}
+
+.tst-2,
+.tst-3 {
+  display: none;
+}
+
 button.btn-free-trial,
 button.btn-get-started,
 button.btn-try {
