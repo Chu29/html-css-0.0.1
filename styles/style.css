@@ -618,6 +618,13 @@ p.highlight {
     margin: 0 auto;
   }
 
+  #your-data img,
+  #apps img {
+    max-width: 560px;
+    max-height: 454px;
+    margin: 0 auto;
+  }
+
   #work-management img:nth-child(4) {
     max-width: 454px;
     max-height: 454px;
@@ -690,13 +697,6 @@ p.highlight {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-  }
-
-  #your-data img,
-  #apps img {
-    max-width: 560px;
-    max-height: 454px;
-    margin: 0 auto;
   }
 
   .tst-2,
