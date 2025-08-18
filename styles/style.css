@@ -169,17 +169,17 @@ body {
   text-align: left;
 }
 
+.infr p:first-of-type {
+  font-weight: 700;
+  color: #fff;
+}
+
 footer .content .logo-description p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: -2%;
   text-align: center;
-  color: #fff;
-}
-
-.infr p:first-of-type {
-  font-weight: 700;
   color: #fff;
 }
 
