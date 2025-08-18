@@ -246,6 +246,44 @@ body {
   color: #fff;
 }
 
+#your-data {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 80px 20px;
+  gap: 100px;
+}
+
+#your-data .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+#your-data .heading .text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#your-data .heading .text-block h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #212529;
+}
+
+#your-data .heading .text-block p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #212529;
+}
+
 button.btn-free-trial,
 button.btn-get-started,
 button.btn-try {
