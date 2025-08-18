@@ -719,4 +719,30 @@ p.highlight {
     overflow-y: scroll;
     gap: 32px;
   }
+
+  footer .content .logo-description p {
+    text-align: left;
+  }
+
+  .logo-description img {
+    max-width: 350px;
+  }
+
+  .terms-and-conditions {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.social-icon img {
+  width: 15px;
+  height: 15px;
+}
+
+.infr,
+.try {
+  align-items: flex-start;
+}
 }
