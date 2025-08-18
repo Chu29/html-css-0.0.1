@@ -55,12 +55,6 @@ body {
   color: #fff;
 }
 
-.card-2 .text-block p {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
-}
-
 .hero-left p,
 .content p {
   font-weight: 400;
@@ -73,6 +67,12 @@ body {
 
 .content p {
   color: #212529;
+}
+
+.card-2 .text-block p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 #work-management {
@@ -180,6 +180,13 @@ body {
   border-radius: 10px;
 }
 
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .card-2 .text-block {
   display: flex;
   align-items: flex-start;
@@ -223,15 +230,13 @@ button.btn-get-started {
   gap: 10px;
 }
 
-.text-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-}
+.content,
+.headline {
 
 .content,
 .headline {
+  display: flex;
+ 
   display: flex;
   flex-direction: column;
   gap: 60px;
