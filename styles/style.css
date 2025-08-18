@@ -460,3 +460,41 @@ button.btn-try {
   gap: 60px;
   align-items: center;
 }
+
+#free-trial {
+  padding: 100px 20px 32px;
+  background-color: #043873;
+}
+
+#free-trial .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+#free-trial .heading h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+#free-trial .heading p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: #fff;
+}
+
+#free-trial .app-icon {
+  display: flex;
+  gap: 40px;
+}
+
+#free-trial .app-icon > img {
+  max-width: 35px;
+  max-height: 35px;
+}
