@@ -454,7 +454,7 @@ footer > .content {
   gap: 80px;
 }
 
-#testimonials > .content {
+#testimonials .content {
   display: flex;
   flex-flow: row nowrap;
   gap: 32px;
@@ -690,5 +690,33 @@ p.highlight {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+  }
+
+  #your-data img,
+  #apps img {
+    max-width: 560px;
+    max-height: 454px;
+    margin: 0 auto;
+  }
+
+  .tst-2,
+  .tst-3 {
+    display: contents;
+  }
+
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 32px;
+    box-shadow: 15px 10px 50px 0 #0000001a;
+    min-width: 420px;
+  }
+
+  #testimonials {
+    overflow-y: scroll;
+    gap: 32px;
   }
 }
