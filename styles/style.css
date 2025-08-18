@@ -748,7 +748,6 @@ p.highlight {
 }
 
 @media screen and (min-width: 1440px) {
-
   #mobile-header {
     display: none;
   }
@@ -801,7 +800,6 @@ p.highlight {
     padding: 16px 40px;
     border-radius: 8px;
     color: #043873;
-    font-family: Inter;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
