@@ -612,7 +612,6 @@ p.highlight {
 /* Media Query for Tablets: 768px */
 
 @media screen and (min-width: 768px) {
-
   #hero img {
     max-width: 560px;
     max-height: 454px;
@@ -637,7 +636,7 @@ p.highlight {
     margin: 0 auto;
   }
 
-    #customize-to-your-needs-2 .heading img {
+  #customize-to-your-needs-2 .heading img {
     max-width: 560px;
     max-height: 454px;
     margin: 0 auto;
@@ -645,8 +644,7 @@ p.highlight {
 
   .price-list {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-flow: row nowrap;
     overflow-x: scroll;
     gap: 30px;
   }
@@ -668,7 +666,7 @@ p.highlight {
     border: 1px solid #ffe492;
   }
 
-    .text-block {
+  .text-block {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -693,5 +691,4 @@ p.highlight {
     font-size: 24px;
     line-height: 36px;
   }
-
 }
