@@ -284,6 +284,50 @@ body {
   color: #212529;
 }
 
+#our-sponsors {
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex-direction: column;
+}
+
+#our-sponsors h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #212529;
+}
+
+#our-sponsors .sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.sponsors .apple {
+  max-width: 55px;
+  max-height: 68px;
+}
+
+.sponsors .microsoft {
+  max-width: 212px;
+  max-height: 46px;
+}
+
+.sponsors .slack {
+  max-width: 192px;
+  max-height: 50px;
+}
+
+.sponsors .google {
+  max-width: 140px;
+  max-height: 46px;
+}
+
 button.btn-free-trial,
 button.btn-get-started,
 button.btn-try {
