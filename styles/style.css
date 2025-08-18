@@ -328,6 +328,39 @@ body {
   max-height: 46px;
 }
 
+#apps {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: #043873;
+}
+
+#apps .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+#apps .heading h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+#apps .heading p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fff;
+}
+
 button.btn-free-trial,
 button.btn-get-started,
 button.btn-try {
