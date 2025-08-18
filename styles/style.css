@@ -746,3 +746,68 @@ p.highlight {
     align-items: flex-start;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  #mobile-header {
+    display: none;
+  }
+
+  #desktop-header {
+    display: flex;
+    background-color: #043873;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #desktop-header nav {
+    display: flex;
+    gap: 48px;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-menu ul {
+    display: flex;
+    gap: 32px;
+  }
+
+  .nav-menu ul li {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-btn {
+    display: flex;
+    gap: 24px;
+  }
+
+  button.btn-login {
+    background-color: #ffe492;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 8px;
+    color: #043873;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -2%;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
