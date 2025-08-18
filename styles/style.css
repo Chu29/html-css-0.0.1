@@ -75,6 +75,15 @@ body {
   line-height: 36px;
 }
 
+#our-sponsors h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #212529;
+}
+
 #work-management {
   padding: 80px 20px;
   display: flex;
@@ -290,15 +299,6 @@ body {
   align-items: center;
   gap: 100px;
   flex-direction: column;
-}
-
-#our-sponsors h1 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 100%;
-  letter-spacing: -2%;
-  text-align: center;
-  color: #212529;
 }
 
 #our-sponsors .sponsors {
