@@ -314,6 +314,22 @@ body {
   color: #fff;
 }
 
+#free-trial .heading h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+#free-trial .heading p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: #fff;
+}
+
 #your-data .heading .text-block h1 {
   font-weight: 700;
   font-size: 36px;
@@ -471,22 +487,6 @@ button.btn-try {
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
-}
-
-#free-trial .heading h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  letter-spacing: 0%;
-  color: #fff;
-}
-
-#free-trial .heading p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: -2%;
-  color: #fff;
 }
 
 #free-trial .app-icon {
