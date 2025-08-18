@@ -390,6 +390,13 @@ body {
   gap: 60px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
 #testimonials > .content {
   display: flex;
   flex-flow: row nowrap;
@@ -403,7 +410,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   gap: 32px;
-  box-shadow: 15px 10px 50px 0px #0000001a;
+  box-shadow: 15px 10px 50px 0 #0000001a;
 }
 
 .name-box > img {
@@ -447,7 +454,6 @@ button.btn-try {
   gap: 10px;
 }
 
-.content,
 .headline {
   display: flex;
   flex-direction: column;
