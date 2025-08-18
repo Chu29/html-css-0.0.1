@@ -215,8 +215,40 @@ body {
   margin: 0 auto;
 }
 
+#your-work {
+  background-color: #043873;
+  padding: 100px 16px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+#your-work .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#your-work .heading h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  color: #fff;
+}
+
+#your-work .heading p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: #fff;
+}
+
 button.btn-free-trial,
-button.btn-get-started {
+button.btn-get-started,
+button.btn-try {
   background-color: #4f9cf9;
   color: #fff;
   font-weight: 400;
