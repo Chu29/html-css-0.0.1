@@ -763,7 +763,7 @@ p.highlight {
   nav ul li {
     list-style-type: none;
   }
-  
+
   nav ul li a {
     text-decoration: none;
     color: #fff;
@@ -778,7 +778,7 @@ p.highlight {
     display: flex;
     align-items: center;
   }
-  
+
   .nav-menu ul {
     display: flex;
     gap: 32px;
@@ -822,7 +822,7 @@ p.highlight {
     align-items: flex-start;
   }
 
-  .hero-left h2{
+  .hero-left h2 {
     font-weight: 700;
     font-size: 64px;
     text-align: left;
@@ -830,5 +830,36 @@ p.highlight {
 
   .hero-left p {
     text-align: left;
+  }
+
+  #work-management .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #work-management .content > .headline p {
+    text-align: left;
+  }
+
+  #work-management .headline {
+    align-items: flex-start;
+  }
+
+  #work-management > .headline {
+    flex-direction: row-reverse;
+    gap: 160px;
+    align-items: center;
+  }
+
+  #work-management > .headline h1,
+  #work-management > .headline p {
+    text-align: left;
+  }
+
+  #work-management > .headline div {
+    display: flex;
+    flex-direction: column;
+    align-items: first start;
+    gap: 48px;
   }
 }
