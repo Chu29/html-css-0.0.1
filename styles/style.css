@@ -69,6 +69,27 @@ body {
   color: #212529;
 }
 
+.infr p {
+  color: #fff;
+}
+
+.try p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fff;
+}
+
+.terms-and-conditions p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -2%;
+  color: #fff;
+}
+
 .card-2 .text-block p {
   font-weight: 600;
   font-size: 24px;
@@ -146,6 +167,20 @@ body {
 .testimonial-card > .comment p,
 .testimonial-card > .name-box p {
   text-align: left;
+}
+
+footer .content .logo-description p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fff;
+}
+
+.infr p:first-of-type {
+  font-weight: 700;
+  color: #fff;
 }
 
 #customize-to-your-needs-1 .text-block p {
@@ -413,6 +448,12 @@ body {
   align-items: center;
 }
 
+footer > .content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 #testimonials > .content {
   display: flex;
   flex-flow: row nowrap;
@@ -504,12 +545,6 @@ footer {
   padding: 140px 16px 32px;
 }
 
-footer > .content {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-}
-
 .info {
   display: flex;
   flex-direction: column;
@@ -522,32 +557,14 @@ footer > .content {
   gap: 24px;
 }
 
-footer .content .logo-description p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: -2%;
-  text-align: center;
-  color: #fff;
-}
-
 .infr {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.infr p:first-of-type {
-  font-weight: 700;
-  color: #fff;
-}
-
-.infr p {
-  color: #fff;
-}
-
 p.highlight {
-  color: #FFE492;
+  color: #ffe492;
 }
 
 .try {
@@ -566,15 +583,6 @@ p.highlight {
   color: #fff;
 }
 
-.try p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: -2%;
-  text-align: center;
-  color: #fff;
-}
-
 .bottom {
   display: flex;
   flex-direction: column;
@@ -587,14 +595,6 @@ p.highlight {
   padding-bottom: 20px;
   gap: 20px;
   align-items: center;
-}
-
-.terms-and-conditions p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: -2%;
-  color: #fff;
 }
 
 .lang {
