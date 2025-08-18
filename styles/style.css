@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
 }
 
 #desktop-header {
@@ -30,16 +36,22 @@
   gap: 60px;
 }
 
-.hero-left h2 {
+.hero-left h2,
+.content h1 {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 45px;
   letter-spacing: -2%;
   text-align: center;
   line-height: 100%;
   color: #fff;
 }
 
-.hero-left p {
+.content h1 {
+  color: #212529;
+}
+
+.hero-left p,
+.content p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -48,7 +60,12 @@
   text-align: center;
 }
 
-button.btn-free-trial {
+.content p {
+  color: #212529;
+}
+
+button.btn-free-trial,
+button.btn-get-started {
   background-color: #4F9CF9;
   color: #fff;
   font-weight: 400;
@@ -57,7 +74,22 @@ button.btn-free-trial {
   letter-spacing: -2%;
   border: none;
   border-radius: 8px;
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   gap: 10px;
+}
+
+#work-management {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.content,
+.headline {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
 }
