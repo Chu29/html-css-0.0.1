@@ -608,3 +608,90 @@ p.highlight {
   gap: 32px;
   margin: 0 auto;
 }
+
+/* Media Query for Tablets: 768px */
+
+@media screen and (min-width: 768px) {
+
+  #hero img {
+    max-width: 560px;
+    max-height: 454px;
+    margin: 0 auto;
+  }
+
+  #work-management img:nth-child(4) {
+    max-width: 454px;
+    max-height: 454px;
+    margin: 0 auto;
+  }
+
+  #work-management img:nth-child(2) {
+    max-width: 560px;
+    max-height: 454px;
+    margin: 0 auto;
+  }
+
+  #customize-to-your-needs-1 .heading img {
+    max-width: 560px;
+    max-height: 454px;
+    margin: 0 auto;
+  }
+
+    #customize-to-your-needs-2 .heading img {
+    max-width: 560px;
+    max-height: 454px;
+    margin: 0 auto;
+  }
+
+  .price-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 30px;
+  }
+
+  .price-card {
+    min-width: 425px;
+    margin: 0 auto;
+  }
+
+  .card-1,
+  .card-3 {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffe492;
+  }
+
+    .text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .card-1 .text-block,
+  .card-3 .text-block {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .card-1 h4,
+  .card-3 h4 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  .card-1 .text-block p,
+  .card-3 .text-block p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+}
