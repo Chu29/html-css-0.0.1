@@ -879,4 +879,20 @@ p.highlight {
   #your-work {
     align-items: center;
   }
+
+  #your-data {
+    flex-direction: row;
+  }
+
+  #your-data .heading {
+    align-items: flex-start;
+  }
+
+  #your-data .heading .text-block p {
+    text-align: left;
+  }
+
+  #our-sponsors .sponsors {
+    flex-direction: row;
+  }
 }
