@@ -855,6 +855,14 @@ p.highlight {
     text-align: center;
   }
 
+   .infr p {
+    text-align: left;
+  }
+
+  .try p {
+    text-align: left;
+  }
+
   #work-management .content > .headline p {
     text-align: left;
   }
@@ -914,14 +922,6 @@ p.highlight {
 
   footer .info {
     flex-direction: row;
-  }
-
-  .infr p {
-    text-align: left;
-  }
-
-  .try p {
-    text-align: left;
   }
 
   .bottom {
