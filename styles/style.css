@@ -727,7 +727,7 @@ p.highlight {
     text-align: left;
   }
 
-   #customize-to-your-needs-2 .text-block p {
+  #customize-to-your-needs-2 .text-block p {
     text-align: left;
   }
 
@@ -755,7 +755,7 @@ p.highlight {
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
- }
+  }
 
   #desktop-header {
     display: flex;
