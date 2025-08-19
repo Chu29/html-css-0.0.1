@@ -639,7 +639,6 @@ p.highlight {
   #work-management img:nth-child(2) {
     margin: 0 auto;
   }
-  
 
   #customize-to-your-needs-1 .heading img {
     margin: 0 auto;
@@ -647,10 +646,6 @@ p.highlight {
 
   #customize-to-your-needs-2 .heading img {
     margin: 0 auto;
-  }
-
-  #customize-to-your-needs-2 .text-block p {
-    text-align: left;
   }
 
   .price-list {
@@ -732,6 +727,10 @@ p.highlight {
     text-align: left;
   }
 
+   #customize-to-your-needs-2 .text-block p {
+    text-align: left;
+  }
+
   .terms-and-conditions {
     display: flex;
     flex-direction: row;
@@ -756,7 +755,7 @@ p.highlight {
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-}
+ }
 
   #desktop-header {
     display: flex;
@@ -851,6 +850,11 @@ p.highlight {
     align-items: center;
   }
 
+  #your-work .heading p,
+  #your-work .heading h1 {
+    text-align: center;
+  }
+
   #work-management .content > .headline p {
     text-align: left;
   }
@@ -874,10 +878,5 @@ p.highlight {
 
   #your-work {
     align-items: center;
-  }
-
-  #your-work .heading p,
-  #your-work .heading h1 {
-    text-align: center;
   }
 }
