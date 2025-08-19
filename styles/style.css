@@ -895,4 +895,36 @@ p.highlight {
   #our-sponsors .sponsors {
     flex-direction: row;
   }
+
+  #apps {
+    flex-direction: row;
+  }
+
+  #apps .heading {
+    align-items: flex-start;
+  }
+
+  #apps .heading .text-block p {
+    text-align: left;
+  }
+
+  #free-trial .heading {
+    align-items: center;
+  }
+
+  footer .info {
+    flex-direction: row;
+  }
+
+  .infr p {
+    text-align: left;
+  }
+
+  .try p {
+    text-align: left;
+  }
+
+  .bottom {
+    flex-direction: row;
+  }
 }
