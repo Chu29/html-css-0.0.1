@@ -837,6 +837,14 @@ p.highlight {
     text-align: left;
   }
 
+  .infr p {
+    text-align: left;
+  }
+
+  .try p {
+    text-align: left;
+  }
+
   #work-management > .headline h1,
   #work-management > .headline p {
     text-align: left;
@@ -853,14 +861,6 @@ p.highlight {
   #your-work .heading p,
   #your-work .heading h1 {
     text-align: center;
-  }
-
-   .infr p {
-    text-align: left;
-  }
-
-  .try p {
-    text-align: left;
   }
 
   #work-management .content > .headline p {
